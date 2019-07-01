@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Magikards</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email:</string>
+    <string name="senha">Password:</string>
+    <string name="registrar">Sign up</string>
+    <string name="login">Sign in</string>
+    <string name="username">Username:</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="album_loadingmessage">Loading album...</string>
+    <string name="victoryButtonText">Continue</string>
+    <string name="not_log_in">Não foi possível iniciar a sessão</string>
+    <string name="log_out">Log Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="not_close_session">Não foi possível encerrar a sessão</string>
+    <string name="not_revoke">Não foi possível revogar o acesso</string>
+    <string name="not_firebase_auth">Não foi possível autenticar no Firebase</string>
+    <string name="lossButtonText">Continue</string>
+    <string name="loadingMessage">Loading...</string>
+    <string name="tradeBackButton">Return</string>
+    <string name="tradeBluetoothButton">Trade Stickers</string>
+    <string name="tradeMessage">Touch and hold a sticker to select it for a trade. Touch it again to deselect. </string>
+
+</resources>

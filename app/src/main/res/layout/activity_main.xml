@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/pallet_town"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:text="@string/log_out"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end|top"
+        android:paddingRight="75dp"
+        style = "@style/Widget.AppCompat.Button.Borderless"
+        android:visibility="gone"
+        android:onClick="logOut"/>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/framemenu"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:background="@color/colorAccent"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text=""
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+
+            android:text="" />
+
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/playGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:layout_gravity="bottom"
+        android:text="Play Magikards"
+        android:visibility="gone"
+        android:onClick="playGame"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="170dp"
+            android:text="Open Album"
+            android:visibility="gone"
+            android:onClick="openAlbum"/>
+
+        <Button
+            android:id="@+id/tradeMagikards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="170dp"
+            android:text="Trade Magikards"
+            android:visibility="gone"
+            android:onClick="tradeMagikards"/>
+
+    </LinearLayout>
+
+</LinearLayout>

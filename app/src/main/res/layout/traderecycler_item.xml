@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="100dp"
+    android:layout_width="100dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="12dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/tradesticker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pokeball"
+            />
+
+        <ImageView
+            android:id="@+id/tradeStickerBorderImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/tradesticker"
+            android:layout_alignBottom="@id/tradesticker"
+            android:layout_alignLeft="@id/tradesticker"
+            android:layout_alignRight="@id/tradesticker"
+            android:src="@drawable/stickers_border"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:id="@+id/selectBorders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/tradesticker"
+            android:layout_alignBottom="@id/tradesticker"
+            android:layout_alignLeft="@id/tradesticker"
+            android:layout_alignRight="@id/tradesticker"
+            android:src="@drawable/selected_stickers_border"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+build/
+app.iml
+google-services.json
+proguard-rules.pro

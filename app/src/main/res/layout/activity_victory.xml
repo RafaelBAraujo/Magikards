@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/victoryRelativeLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VictoryActivity"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:id="@+id/framevictory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hrlist_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        />
+
+    <Button
+        android:id="@+id/victoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hrlist_recycler_view"
+        android:text="@string/victoryButtonText"
+        android:layout_marginTop="65dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
